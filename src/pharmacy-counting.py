@@ -69,9 +69,9 @@ for key in sorted(drug_count_cost.keys(), key=lambda k: (drug_count_cost[k][1], 
 
 print(output_str)
 
-# text_file = open("top_cost_drug.txt", "w")
-# text_file.write(output_str)
-# text_file.close()
+text_file = open("top_cost_drug.txt", "w")
+text_file.write(output_str)
+text_file.close()
 
 
 
