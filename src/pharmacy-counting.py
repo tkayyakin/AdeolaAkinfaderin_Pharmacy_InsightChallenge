@@ -27,6 +27,8 @@ for line in split_stringdata:
         split_line = line.split(',')
 
     # print(split_line)
+    
+    # define the drug cost, drug name, and prescriber name
 
     drug_cost = int(split_line[4])
     drug_name = split_line[3]
@@ -41,7 +43,7 @@ for line in split_stringdata:
     if drug_name in drug_count_cost:
         current_drug = drug_count_cost[drug_name]
 
-    # for each time the drug name is found, add the unique prescriber to the list above
+    # for each time the drug name is found, add the unique prescriber to the empty list in current_drug above
     current_drug_prescribers = current_drug[0]
     if prescriber_name not in current_drug_prescribers:
         current_drug_prescribers.append(prescriber_name)
