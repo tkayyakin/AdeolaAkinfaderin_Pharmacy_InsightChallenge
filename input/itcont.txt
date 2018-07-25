@@ -1,1 +1,1 @@
-pharmacy_counting/insight_testsuite/tests/test_1/input/itcont.txt
+https://raw.githubusercontent.com/InsightDataScience/pharmacy_counting/master/insight_testsuite/tests/test_1/output/top_cost_drug.txt
